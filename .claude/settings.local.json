@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(FILE=\"/c/Users/Gestão SWOT HUB/Downloads/taste-skill-main/taste-skill-main/Referencia/Site/tntfit-v4.html\")",
+      "Read(//c/Users/Gestão SWOT HUB/Downloads/taste-skill-main/**)",
+      "Bash(FILE=\"/c/Users/Gestão SWOT HUB/Downloads/taste-skill-main/taste-skill-main/Referencia/Site/tntfit-v4.html\" sed -n '535,543p' \"$FILE\")",
+      "Bash(grep -n \"price\\\\|pl-price\\\\|prc\\\\|R$\\\\|149\\\\|139\" \"/c/Users/Gestão SWOT HUB/Downloads/taste-skill-main/taste-skill-main/index.html\")"
+    ]
+  }
+}
