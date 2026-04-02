@@ -50,11 +50,12 @@ img{display:block;max-width:100%}
 }
 .hero-bg{
   position:absolute;inset:0;
-  background-image:url('../img/Sem Título-2.webp');
+  background-image:url('../img/mobile.webp');
   background-size:cover;
-  background-position:70% center;
+  background-position:center center;
   background-repeat:no-repeat;
 }
+.hero-link{position:absolute;inset:0;z-index:2;cursor:pointer}
 .hero-overlay{
   position:absolute;inset:0;
   background:linear-gradient(
@@ -115,7 +116,7 @@ img{display:block;max-width:100%}
   .btn-y,.btn-w{width:auto}
 }
 @media(min-width:768px){
-  .hero-bg{background-position:65% 30%}
+  .hero-bg{background-image:url('../img/desktop.webp');background-position:center center}
   .hero-overlay{background:linear-gradient(105deg,rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.5) 55%,rgba(0,0,0,0.1) 100%)}
   .hero-content{padding:0 48px 80px;max-width:680px}
   .hero-h1{font-size:clamp(72px,9vw,120px)}
@@ -155,7 +156,7 @@ img{display:block;max-width:100%}
 /* ── MARQUEE ── */
 .mq-wrap{background:var(--y);overflow:hidden;padding:13px 0}
 .mq-track{display:flex;animation:mq 24s linear infinite;width:max-content}
-@keyframes mq{to{transform:translateX(-50%)}}
+@keyframes mq{to{transform:translateX(-25%)}}
 .mq-item{
   font-family:var(--fh);font-size:15px;font-weight:900;
   text-transform:uppercase;letter-spacing:2px;color:#000;
@@ -331,7 +332,7 @@ section{padding:72px 20px}
   font-size:9px;color:#b366ff;
   letter-spacing:1px;text-transform:uppercase;font-weight:600;width:fit-content;
 }
-.mc-pill.sep{background:rgba(255,60,60,0.1);border-color:rgba(255,80,80,0.3);color:#ff7070}
+.mc-pill.sep{background:rgba(153,0,255,0.15);border-color:rgba(153,0,255,0.3s);color:#9900ff}
 @media(min-width:768px){
   .mc{flex:0 0 220px;max-width:220px;min-height:260px}
   .mod-head{grid-template-columns:1fr 1fr;align-items:end;gap:24px;margin-bottom:48px}
@@ -430,7 +431,7 @@ section{padding:72px 20px}
 }
 
 /* ── LOCALIZAÇÃO ── */
-#localizacao .sk{color:#0A0A0A}
+#localizacao .sk{color:#9900ff}
 .loc-sec{background:#fff;border-top:1px solid var(--br)}
 .loc-head{margin-bottom:36px}
 .loc-cards{display:flex;flex-direction:column;gap:14px;margin-bottom:24px}

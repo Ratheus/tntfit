@@ -7,6 +7,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
+<script>
+  history.scrollRestoration='manual';
+  window.scrollTo(0,0);
+  window.addEventListener('load',()=>window.scrollTo(0,0));
+</script>
 </head>
 <body>
 
@@ -27,16 +32,7 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content rv">
-    <div class="hero-tag">Parada de Taipas &middot; São Paulo</div>
-    <h1 class="hero-h1">Sua<em> Melhor</em><br>Versão<br>Começa Aqui</h1>
-    <p class="hero-desc">Equipamentos Life Fitness &amp; Hammer Strength, sala kids supervisionada, estacionamento com manobrista e 8+ modalidades de treino.</p>
-    <div class="hero-btns">
-      <a href="#planos" class="btn-y">Quero Meu Plano</a>
-      <a href="#diferenciais" class="btn-w">Conhecer Estrutura</a>
-    </div>
-  </div>
+  <a href="#planos" class="hero-link" aria-label="Ver planos"></a>
 </section>
 
 <!-- COUNTDOWN -->
@@ -57,18 +53,38 @@
 <!-- MARQUEE -->
 <div class="mq-wrap" aria-hidden="true">
   <div class="mq-track">
-    <span class="mq-item">Modalidades <span>&#10022;</span></span>
-    <span class="mq-item">FAQ <span>&#10022;</span></span>
-    <span class="mq-item">Sobre <span>&#10022;</span></span>
-    <span class="mq-item">Planos <span>&#10022;</span></span>
-    <span class="mq-item">Estrutura <span>&#10022;</span></span>
-    <span class="mq-item">Localização <span>&#10022;</span></span>
-    <span class="mq-item">Modalidades <span>&#10022;</span></span>
-    <span class="mq-item">FAQ <span>&#10022;</span></span>
-    <span class="mq-item">Sobre <span>&#10022;</span></span>
-    <span class="mq-item">Planos <span>&#10022;</span></span>
-    <span class="mq-item">Estrutura <span>&#10022;</span></span>
-    <span class="mq-item">Localização <span>&#10022;</span></span>
+    <span class="mq-item">Musculação <span>&#10022;</span></span>
+    <span class="mq-item">Dança <span>&#10022;</span></span>
+    <span class="mq-item">Yoga <span>&#10022;</span></span>
+    <span class="mq-item">Arte Marcial <span>&#10022;</span></span>
+    <span class="mq-item">Step <span>&#10022;</span></span>
+    <span class="mq-item">Pilates <span>&#10022;</span></span>
+    <span class="mq-item">Mobilidade <span>&#10022;</span></span>
+    <span class="mq-item">GAP <span>&#10022;</span></span>
+    <span class="mq-item">Musculação <span>&#10022;</span></span>
+    <span class="mq-item">Dança <span>&#10022;</span></span>
+    <span class="mq-item">Yoga <span>&#10022;</span></span>
+    <span class="mq-item">Arte Marcial <span>&#10022;</span></span>
+    <span class="mq-item">Step <span>&#10022;</span></span>
+    <span class="mq-item">Pilates <span>&#10022;</span></span>
+    <span class="mq-item">Mobilidade <span>&#10022;</span></span>
+    <span class="mq-item">GAP <span>&#10022;</span></span>
+    <span class="mq-item">Musculação <span>&#10022;</span></span>
+    <span class="mq-item">Dança <span>&#10022;</span></span>
+    <span class="mq-item">Yoga <span>&#10022;</span></span>
+    <span class="mq-item">Arte Marcial <span>&#10022;</span></span>
+    <span class="mq-item">Step <span>&#10022;</span></span>
+    <span class="mq-item">Pilates <span>&#10022;</span></span>
+    <span class="mq-item">Mobilidade <span>&#10022;</span></span>
+    <span class="mq-item">GAP <span>&#10022;</span></span>
+    <span class="mq-item">Musculação <span>&#10022;</span></span>
+    <span class="mq-item">Dança <span>&#10022;</span></span>
+    <span class="mq-item">Yoga <span>&#10022;</span></span>
+    <span class="mq-item">Arte Marcial <span>&#10022;</span></span>
+    <span class="mq-item">Step <span>&#10022;</span></span>
+    <span class="mq-item">Pilates <span>&#10022;</span></span>
+    <span class="mq-item">Mobilidade <span>&#10022;</span></span>
+    <span class="mq-item">GAP <span>&#10022;</span></span>
   </div>
 </div>
 
@@ -162,13 +178,13 @@
       <span class="sk">Modalidades</span>
       <h2 class="st wh">Explore<br>Seu <em>Potencial</em></h2>
     </div>
-    <p class="ss wh">8 modalidades para você nunca enjoar. Do musculação ao yoga, dança e artes marciais.</p>
+    <p class="ss wh">8 modalidades para você nunca enjoar. Da musculação ao yoga, dança e artes marciais.</p>
   </div>
   <div class="mod-carousel rv d1" id="modCarousel">
 
     <!-- Musculação -->
     <div class="mc">
-      <div class="mc-bg" style="background:linear-gradient(135deg,#1a1a1a 0%,#2a2010 100%)"></div>
+      <div class="mc-bg" style="background-image:url('assets/img/musculacao.webp');background-size:cover;background-position:center"></div>
       <div class="mc-fade"></div>
       <div class="mc-content">
         <div class="mc-icon">
@@ -181,7 +197,7 @@
 
     <!-- Dança -->
     <div class="mc">
-      <div class="mc-bg" style="background:linear-gradient(135deg,#110a1a 0%,#1a0a2a 100%)"></div>
+      <div class="mc-bg" style="background-image:url('assets/img/danca.webp');background-size:cover;background-position:center"></div>
       <div class="mc-fade"></div>
       <div class="mc-content">
         <div class="mc-icon">
@@ -194,7 +210,7 @@
 
     <!-- Yoga -->
     <div class="mc">
-      <div class="mc-bg" style="background:linear-gradient(135deg,#0a1a15 0%,#0a1a10 100%)"></div>
+      <div class="mc-bg" style="background-image:url('assets/img/yoga.webp');background-size:cover;background-position:center"></div>
       <div class="mc-fade"></div>
       <div class="mc-content">
         <div class="mc-icon">
@@ -214,13 +230,13 @@
           <svg viewBox="0 0 24 24"><path d="M7 12l5-7 5 7M5 16l7-3 7 3M12 13v8M9 21h6"/></svg>
         </div>
         <div class="mc-name">Arte Marcial</div>
-        <div class="mc-pill sep">Separado</div>
+        <div class="mc-pill sep">Incluído</div>
       </div>
     </div>
 
     <!-- Step -->
     <div class="mc">
-      <div class="mc-bg" style="background:linear-gradient(135deg,#0a0f1a 0%,#0a1525 100%)"></div>
+      <div class="mc-bg" style="background-image:url('assets/img/step.webp');background-size:cover;background-position:center"></div>
       <div class="mc-fade"></div>
       <div class="mc-content">
         <div class="mc-icon">
@@ -233,7 +249,7 @@
 
     <!-- Pilates -->
     <div class="mc">
-      <div class="mc-bg" style="background:linear-gradient(135deg,#0a1a1a 0%,#0a1518 100%)"></div>
+      <div class="mc-bg" style="background-image:url('assets/img/pilates.webp');background-size:cover;background-position:center"></div>
       <div class="mc-fade"></div>
       <div class="mc-content">
         <div class="mc-icon">
