@@ -50,7 +50,7 @@ img{display:block;max-width:100%}
 }
 .hero-bg{
   position:absolute;inset:0;
-  background-image:url('../img/mobile.webp');
+  background-image:url('../img/mobile-v3.webp');
   background-size:cover;
   background-position:center center;
   background-repeat:no-repeat;
@@ -116,7 +116,7 @@ img{display:block;max-width:100%}
   .btn-y,.btn-w{width:auto}
 }
 @media(min-width:768px){
-  .hero-bg{background-image:url('../img/desktop.webp');background-position:center center}
+  .hero-bg{background-image:url('../img/desktop-v3.webp');background-position:center center}
   .hero-overlay{background:linear-gradient(105deg,rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.5) 55%,rgba(0,0,0,0.1) 100%)}
   .hero-content{padding:0 48px 80px;max-width:680px}
   .hero-h1{font-size:clamp(72px,9vw,120px)}
