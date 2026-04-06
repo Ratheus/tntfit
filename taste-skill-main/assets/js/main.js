@@ -1,5 +1,5 @@
 // ── COUNTDOWN ──────────────────────────────────────────────
-const countdownTarget = new Date('2026-04-30T23:59:00');
+const countdownTarget = new Date('2026-04-10T23:59:00');
 
 function formatUnit(value) {
   return String(Math.floor(value)).padStart(2, '0');
